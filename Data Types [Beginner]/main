@@ -1,0 +1,210 @@
+# 1. Numbers
+# 2. String
+# 3. Tuple
+# 4. List
+# 5. Set
+# 6. Dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1. Numbers
+# Integer
+int_variable = 4
+# Float
+float_variable = 3.32
+# Complex
+complex_variable = 3+4j
+complex_variable2 = complex(3,4)
+
+print(int_variable)
+print(float_variable)
+print(complex_variable)
+print(complex_variable2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2. String
+str_variable = "Hello World"
+variable2 = 2
+
+# Printing a string
+# print(variable2)
+
+# convert an int to a string
+# str_variable2 = str(2)
+
+# Printing a string with an int
+# print(str_variable + str_variable2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3. Tuple
+# Tuples can store multiple data types similar to a list. Tuples however are immutable, meaning the values in the
+# tuple cannot be modified. You cannot modify the size of the tuple either
+tuple_variable = ("test", 1, 2.34, "z")
+
+# Attempt to assign a tuple after it is made
+# tuple_variable[0] = "not test"
+
+# Print the tuple's first item
+# print(tuple_variable[0])
+
+# Print the whole tuple
+# print(tuple_variable)
+
+# Note: Main reason to use these is to defend this variable from any changes while the program is run
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 4. List
+# Lists can store multiple different types of elements like the tuple. However this data type is mutable, meaning
+# you can edit the values of whatever is stored inside the list or even the size of the list
+list_variable = ["test", 1, 2.34, "z"]
+
+# Assign a new value to a list item
+# list_variable[0] = 3
+
+# Add to a list
+# list_variable.append("4")
+
+# Print the list
+# print(list_variable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 5. Set
+# Sets themselves are mutable, but their variables are not. The set is not ordered and will be different everytim the
+# set is created. You cannot change items, but you can remove items and add new items. Keep in mind, no duplicates are
+# allowed in sets and will be ignored
+set_variable = {"test", 1, 2.34, "z"}
+
+# Attempt to assign the set item a new value
+# set_variable[0] = 4
+
+# Print the set
+# print(set_variable)
+
+
+# used well when trying to get rid of duplicates
+# duplicate_list = ["1", "1", "1", "2", "2", "3", "7"]
+# set_list = set(duplicate_list)
+
+# print(duplicate_list)
+# print(set_list)
+# duplicate_list = list(set_list)
+# print(duplicate_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# print(tuple_variable)
+# print(list_variable)
+# print(set_variable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 6. Dictionary
+dictionary_variable = {"item" : "money",
+                       "quantity" : 100,
+                       "extra items": ["wallet", "hat"]}
+
+
+print(dictionary_variable["item"])  # outputs "money"
+print(dictionary_variable["quantity"])  # outputs 100
+print(dictionary_variable["extra items"])  # outputs "wallet" and "hat" as a list
+
+# Note: Useful if you want a list like variable that can use "keys" to map to variables instead of index values
