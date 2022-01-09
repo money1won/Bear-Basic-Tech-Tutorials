@@ -1,0 +1,69 @@
+# while loops
+
+# While loops allow a programmer to continuously run through commands while a certain condition is being met
+
+
+# PYTHON SYNTAX:
+# while (boolean expression) :
+
+# Basic example
+
+x = 1
+while x == 1:
+    print(x)
+    x += 1
+    print(x)
+
+
+# Similar to a For loop (equivalent to iterating from 1-4
+
+# x = 1
+# while x < 5:
+#     print(x)
+#     x += 1
+#     print(x)
+
+
+
+
+
+
+
+
+
+
+# Use of break statement
+
+# x = 1
+# while x < 8:
+#     print(x)
+#     x += 1
+#     if x == 5:
+#         break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Be careful! If a while loop condition is incorrectly written where it is always true, it can create an "infinite loop"
+
+# x = 1
+# while x < 9:
+#     y = x + 1
+#     x += 1
+#     print("y = " + str(y))
+#     print("x = " + str(x))
+
+
