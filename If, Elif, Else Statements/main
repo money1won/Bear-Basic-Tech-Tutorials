@@ -1,0 +1,91 @@
+# If statements are used to control actions to be performed given if a certain conditional statement is true or not
+
+# SYNTAX
+#  if [conditional statement]:
+    # [do stuff]
+
+# Simple example
+
+y = 1
+x = 3
+
+if y == 1:
+    print("do stuff 1")
+
+if x == 3:
+    print("do stuff 2")
+
+
+
+
+
+
+
+
+
+
+
+
+# Elif statements are used when you want only one condition to be fired. The first statement that presents a true
+# conditional will be the one that is fired
+
+# All elif statements MUST be preceded by an if statement
+
+# SYNTAX
+# [if statement]
+    # [do stuff]
+# elif [conditional statement]:
+    # [do stuff]
+
+# simple example
+
+# x = 5
+#
+# if x == 1:
+#     print("x is 1")
+# elif x <= 4:
+#     print("x is less than or equal to 4")
+# elif x <= 5:
+#     print("x is less than or equal to 5")
+
+# How this is different from "if"
+
+# x = 1
+# if x == 1:
+#     print("x is 1")
+# if x <= 4:
+#     print("x is less than or equal to 4")
+# if x <= 5:
+#     print("x is less than or equal to 5")
+
+
+
+
+
+
+
+
+# Else statements are general statements that will be last to fire in an if/elif statement stack. Not mandatory,
+# but act as a good catch-all to ensure the stack does something at least, even if no conditions in the stack are met
+
+# MUST be preceded by at least an if statement. Does not necessarily have elif statements preceding them, but could
+
+# SYNTAX
+# [if statement]
+    # [do stuff]
+# [any elif statements]
+    # [do stuff]
+# else:
+    # [do stuff]
+
+
+# simple example
+
+# x = 56716
+# 
+# if x == 1:
+#     print("x is 1")
+# elif x <= 4:
+#     print("x is less than or equal to 4")
+# else:
+#     print("no conditionals were true")
